@@ -1,0 +1,40 @@
+ul, h1, h2, h3, h4, h5, h6, p {
+	margin: 0px;
+	text-rendering: auto;
+}
+
+ul, ol, li {
+	list-style-type: none;
+	padding: 0;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+a {
+	color: #0066cc;
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+	&:hover, &:focus, &:active {
+		outline: none;
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+    padding: 0;
+}
+
+menu {
+	margin: 0;
+}

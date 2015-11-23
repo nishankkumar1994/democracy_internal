@@ -1,0 +1,22 @@
+// Custom Utility
+//$bootstrap-base-url: "../../bower_components/bootstrap-sass";   // Bootstrap base URL
+$images-base-url: "../images";
+$font-path-url: "../fonts";
+
+//Bootstrap components
+@import "bootstrap-components";
+
+// Custom variables
+@import "partials/fonts";
+@import "partials/variables";
+// @import "partials/fonts-icon";
+
+// Bwell Scss Partials
+@import "partials/mixins";
+@import "partials/base";
+@import "partials/header";
+@import "partials/navigations";
+@import "partials/button-dropdowns";
+// @import "partials/range-slider";
+// @import "partials/bootstrap-select";
+@import "partials/page";

@@ -1,0 +1,40 @@
+
+.navigation-menu-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    list-style: none;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    // display: none;
+}
+
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    width: 0;
+    height: 0;
+}
+
+a.icon-menu-icons {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    padding: 21px 27px 5px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    // .transition(all 300ms ease);
+}
+
+.global-wrap {
+    position: relative;
+    // min-height: 1093px;
+    z-index: 1;
+    background: #ffffff;
+}
